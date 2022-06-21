@@ -28,7 +28,7 @@ jobs:
       run: |
         stamp=$(date +'%Y%m%d%H%M%S')
         dactyl_build -o "$stamp"
-        dactyl_build -o "$stamp/ja" -t ja
+        dactyl_build -o "$stamp/ja"
         cp ./favicon.ico "$stamp"
 
 
